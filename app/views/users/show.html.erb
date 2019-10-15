@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+<br>
+<br>
+<h1>
+  <strong><u>名前</u></strong><br><br>
+  <%= @user.name %>
+</h1>
+<br>
+<br>
+<h1>
+  <strong><u>症状</u></strong><br><br>
+  <%= @user.detail %>
+</h1>
+<br>
+<br>
+<h3>
+  <%= link_to '登録画面へ戻る', new_user_path %>
+<br>
+<br>
+  <%= link_to '患者一覧', users_path %>
+</h3>
